@@ -1,0 +1,27 @@
+#bag{
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(bag.png) center no-repeat;
+}
+#bag-health{
+  width: 200px;
+  border: solid 2px black;
+  margin: 0 auto 20px auto;
+}
+
+#bag-health div{
+  height: 20px;
+  background: crimson center;
+}
+
+#controls{
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* after game is over health of bag reached zero */
+#bag.burst{
+  background: url(bag-burst.png) center no-repeat ;
+
+}
